@@ -8,3 +8,7 @@ Unofficial implementation of DragGAN with StyleGAN2/3 pretrained models
 |AFHQ1|AFHQ2|
 |-|-|
 |![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_100.gif)|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_400.gif)|
+
+|AFHQ_Cat1|AFHQ_Cat2|
+|-|-|
+|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_100.gif)|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_400.gif)|
