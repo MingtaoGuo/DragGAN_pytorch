@@ -27,9 +27,9 @@ All dependencies for defining the environment are provided in `environment.yaml`
 ### Dragging
 Downloading the stylegan2 pretrained models:
 - [stylegan2-ffhq-512x512.pt](https://drive.google.com/file/d/1OFbkHKkBOtrskyDbOrgVfjoq2eKIiTMs/view?usp=share_link)
-- [stylegan2-afhqwild-512x512.pt](https://drive.google.com/file/d/1OFbkHKkBOtrskyDbOrgVfjoq2eKIiTMs/view?usp=share_link)
-- [stylegan2-afhqdog-512x512.pt](https://drive.google.com/file/d/1OFbkHKkBOtrskyDbOrgVfjoq2eKIiTMs/view?usp=share_link)
-- [stylegan2-afhqcat-512x512.pt](https://drive.google.com/file/d/1OFbkHKkBOtrskyDbOrgVfjoq2eKIiTMs/view?usp=share_link)
+- [stylegan2-afhqwild-512x512.pt](https://drive.google.com/file/d/1L4YN1iVC8urhW6EqCzJzJAa_Gz0_Ik7M/view?usp=share_link)
+- [stylegan2-afhqdog-512x512.pt](https://drive.google.com/file/d/1pRqs6AEHaAkPaz-YbgXMSCmswhGlKnrt/view?usp=share_link)
+- [stylegan2-afhqcat-512x512.pt](https://drive.google.com/file/d/1QUE-70ccfaJaYh890x-16lueoXc9y6V4/view?usp=share_link)
 ``` 
 python draggan_stylegan2.py
 ```
@@ -53,6 +53,7 @@ python draggan_stylegan2.py
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378 at hotmail dot com
-
+## Acknowledgement
+[stylegan3](https://github.com/NVlabs/stylegan3)
 ## Reference
 [1]. Pan, Xingang, et al. "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold." arXiv preprint arXiv:2305.10973 (2023).
