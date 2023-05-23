@@ -21,8 +21,8 @@ git clone https://github.com/MingtaoGuo/DragGAN_stylegan3.git
 cd DragGAN_stylegan3
 ```
 - Dependencies:  
-We recommend running this repository using [Anaconda](https://docs.anaconda.com/anaconda/install/). 
-All dependencies for defining the environment are provided in `environment.yaml`.
+We recommend running this repository using [Anaconda](https://docs.anaconda.com/anaconda/install/) or Docker. 
+All dependencies for defining the environment are provided in `environment.yaml` and `Dockerfile` .
 
 ### Dragging
 Downloading the stylegan2 pretrained models:
@@ -33,7 +33,7 @@ Downloading the stylegan2 pretrained models:
 ``` 
 python draggan_stylegan2.py
 ```
-
+In the `draggan_stylegan2.py`, `src_points (red point in image)` will be dragged to the `tar_points (blue point in image)`, so just revise the points in `src_points` and `tar_points`.
 # Results
 |FFHQ1|FFHQ2|
 |-|-|
