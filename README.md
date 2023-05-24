@@ -37,19 +37,19 @@ In the `draggan_stylegan2.py`, `src_points (red point in image)` will be dragged
 # Results
 |FFHQ1|FFHQ2|
 |-|-|
-|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/ffhq_400.gif)|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/ffhq_600.gif)|
+|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_400.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_600.gif)|
 
 |AFHQ1|AFHQ2|
 |-|-|
-|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_100.gif)|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_400.gif)|
+|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_100.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_400.gif)|
 
 |AFHQ_Cat1|AFHQ_Cat2|
 |-|-|
-|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_cat_200.gif)|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_cat_800.gif)|
+|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_cat_200.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_cat_800.gif)|
 
 |AFHQ_Dog1|AFHQ_Dog2|
 |-|-|
-|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_dog_200.gif)|![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/afhq_dog_800.gif)|
+|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_dog_200.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_dog_800.gif)|
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378 at hotmail dot com
