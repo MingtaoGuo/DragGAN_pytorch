@@ -35,6 +35,10 @@ Drag generated image:
 ``` 
 python draggan_stylegan2.py
 ```
+Drag generated human image:
+``` 
+python draggan_stylegan2_human.py
+```
 Drag real image:
 ``` 
 python draggan_stylegan2_realimg.py
@@ -72,6 +76,7 @@ Mingtao Guo
 E-mail: gmt798714378 at hotmail dot com
 ## Acknowledgement
 [stylegan3](https://github.com/NVlabs/stylegan3)
+[stylegan-human](https://github.com/stylegan-human/StyleGAN-Human)
 [cutout team](https://www.cutout.pro/)
 ## Reference
 [1]. Pan, Xingang, et al. "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold." arXiv preprint arXiv:2305.10973 (2023).
