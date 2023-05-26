@@ -30,6 +30,7 @@ Downloading the stylegan2 pretrained models:
 - [stylegan2-afhqwild-512x512.pt](https://drive.google.com/file/d/1L4YN1iVC8urhW6EqCzJzJAa_Gz0_Ik7M/view?usp=share_link)
 - [stylegan2-afhqdog-512x512.pt](https://drive.google.com/file/d/1pRqs6AEHaAkPaz-YbgXMSCmswhGlKnrt/view?usp=share_link)
 - [stylegan2-afhqcat-512x512.pt](https://drive.google.com/file/d/1QUE-70ccfaJaYh890x-16lueoXc9y6V4/view?usp=share_link)
+- [stylegan2-human-1024x1024.pt](https://drive.google.com/file/d/1cK6KHH19iF09iMUg-iUDrl_TMIq8HGhC/view?usp=share_link)
 
 Drag generated image:
 ``` 
