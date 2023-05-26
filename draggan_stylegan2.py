@@ -109,7 +109,7 @@ class DragGAN:
         img = (img.permute(0, 2, 3, 1) * 127.5 + 128).clamp(0, 255).to(torch.uint8)
         return img[0].cpu().numpy()
 
-    def train(self, src_points, tar_points, M, seed=100):
+    def train(self, src_points, tar_points, M, seed=100, yiled_result=False):
         label = torch.zeros([1, self.G.c_dim], device=self.device).to(self.device)
         z = torch.from_numpy(np.random.RandomState(seed).randn(1, self.G.z_dim)).to(self.device)
         latent = self.G.mapping(z, label, truncation_psi=1.0, truncation_cutoff=None, update_emas=False)
@@ -147,8 +147,11 @@ class DragGAN:
                     break
 
             img = (img.permute(0, 2, 3, 1) * 127.5 + 128).clamp(0, 255).to(torch.uint8)
-            res.append(img[0].cpu().numpy())
-            res_points.append(src_points)
+            if yiled_result:
+                yield (img[0].cpu().numpy(), src_points)
+            else:
+                res.append(img[0].cpu().numpy())
+                res_points.append(src_points)
             if i % 10 == 0:
                 print("L_motion:", L_motion.item(), "Drag points:", src_points, "target points:", tar_points)
 
@@ -180,5 +183,6 @@ if __name__ == "__main__":
             img[t[1]-3:t[1]+3, t[0]-3:t[0]+3] = blue_patch
         Image.fromarray(np.uint8(img)).save(f"./results/{idx+1}.png")
     os.system(f"ffmpeg -r 24 -i results/%1d.png -pix_fmt yuv420p -c:v libx264 {seed}.mp4")
+
 
 

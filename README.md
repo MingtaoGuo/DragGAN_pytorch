@@ -61,5 +61,6 @@ Mingtao Guo
 E-mail: gmt798714378 at hotmail dot com
 ## Acknowledgement
 [stylegan3](https://github.com/NVlabs/stylegan3)
+[cutout team](https://www.cutout.pro/)
 ## Reference
 [1]. Pan, Xingang, et al. "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold." arXiv preprint arXiv:2305.10973 (2023).
