@@ -258,7 +258,7 @@ class DragGAN:
 
 
 if __name__ == "__main__":
-    real_img_path = "lion.png"
+    real_img_path = "resources/lion.png"
     src_points = [np.array([281, 286]), np.array([279, 363])]
     tar_points = [np.array([359, 257]), np.array([356, 346])]
     # mask = points2mask(src_points, tar_points)
