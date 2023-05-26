@@ -46,6 +46,10 @@ In the `draggan_stylegan2.py`, `src_points (red point in image)` will be dragged
 |-|-|
 |![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_400.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_600.gif)|
 
+|Human1|Human2|
+|-|-|
+|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/human_100.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/human_600.gif)|
+
 |AFHQ1|AFHQ2|
 |-|-|
 |![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_100.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_400.gif)|
