@@ -30,8 +30,14 @@ Downloading the stylegan2 pretrained models:
 - [stylegan2-afhqwild-512x512.pt](https://drive.google.com/file/d/1L4YN1iVC8urhW6EqCzJzJAa_Gz0_Ik7M/view?usp=share_link)
 - [stylegan2-afhqdog-512x512.pt](https://drive.google.com/file/d/1pRqs6AEHaAkPaz-YbgXMSCmswhGlKnrt/view?usp=share_link)
 - [stylegan2-afhqcat-512x512.pt](https://drive.google.com/file/d/1QUE-70ccfaJaYh890x-16lueoXc9y6V4/view?usp=share_link)
+
+Drag generated image:
 ``` 
 python draggan_stylegan2.py
+```
+Drag real image:
+``` 
+python draggan_stylegan2_realimg.py
 ```
 In the `draggan_stylegan2.py`, `src_points (red point in image)` will be dragged to the `tar_points (blue point in image)`, so just revise the points in `src_points` and `tar_points`.
 # Results
