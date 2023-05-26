@@ -55,6 +55,7 @@ In the `draggan_stylegan2.py`, `src_points (red point in image)` will be dragged
 |Real image|Projected image|Drag Result|
 |-|-|-|
 |![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/lion.png)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/lion_proj.png)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_lion_600.gif)|
+|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_1.png)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_1_proj.png)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_1.gif)|
 
 ## Author 
 Mingtao Guo
