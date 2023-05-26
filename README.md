@@ -35,6 +35,7 @@ python draggan_stylegan2.py
 ```
 In the `draggan_stylegan2.py`, `src_points (red point in image)` will be dragged to the `tar_points (blue point in image)`, so just revise the points in `src_points` and `tar_points`.
 # Results
+## Drag generated image
 |FFHQ1|FFHQ2|
 |-|-|
 |![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_400.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/ffhq_600.gif)|
@@ -50,6 +51,11 @@ In the `draggan_stylegan2.py`, `src_points (red point in image)` will be dragged
 |AFHQ_Dog1|AFHQ_Dog2|
 |-|-|
 |![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_dog_200.gif)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_dog_800.gif)|
+## Drag real image 
+|Real image|Projected image|Drag Result|
+|-|-|-|
+|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/lion.png)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/lion_proj.png)|![](https://github.com/MingtaoGuo/DragGAN_pytorch/blob/main/resources/afhq_lion_600.gif)|
+
 ## Author 
 Mingtao Guo
 E-mail: gmt798714378 at hotmail dot com
