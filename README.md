@@ -10,7 +10,7 @@ Generative Image Manifold](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
 
 ![](https://github.com/MingtaoGuo/DragGAN_stylegan3/blob/main/resources/intro.png)
 ## Web Demo 
-Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo for drag your own image: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/wuutiing2/DragGAN_pytorch)
+Try out the Web Demo for dragging your own image: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/wuutiing2/DragGAN_pytorch)
 ## Getting Started
 ### Prerequisites
 - Linux or macOS
